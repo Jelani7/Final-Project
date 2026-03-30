@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://bannwo2qgl35q"]
+
+[ext_resource type="Script" uid="uid://bekhqpt6heek5" path="res://start_screen.gd" id="1_ncxyx"]
+
+[node name="StartScreen" type="Node2D" unique_id=682504538]
+script = ExtResource("1_ncxyx")
+
+[node name="Control" type="Control" parent="." unique_id=2104607759]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TitleLabel" type="Label" parent="." unique_id=1443249783]
+offset_left = 514.0
+offset_top = 103.0
+offset_right = 634.0
+offset_bottom = 152.0
+text = "Endless Runner
+"
+
+[node name="Start" type="Label" parent="." unique_id=966464083]
+offset_left = 515.0
+offset_top = 522.0
+offset_right = 678.0
+offset_bottom = 571.0
+text = "Press Enter to Start
+"
